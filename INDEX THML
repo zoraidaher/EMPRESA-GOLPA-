@@ -2,7 +2,7 @@
 	<head><!--etiqueta de apertura de cabecera -->
 		<title>SoporteTI</title><!--etiqueta para titulo-->
 		<meta charset="utf-8"><!--permite reconcer caracteres especiales-->
-		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link  herf:¨main.cc¨rel-stylesneet¨/>
 		<link rel="stylesheet" type="text/css" href="estilo/normalize.css">
 	</head><!--etiqueta de cerrar de cabecera -->
 	<body><!--etiqueta del cuerpo del diseño-->
