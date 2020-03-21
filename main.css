@@ -1,0 +1,51 @@
+/*libreria normalize.css = para estandarizar el diseño en todos los navegadores
+https://google.com/normalize.css;
+*/
+body
+{	margin:0;
+	background: blue;
+	color: white;
+}
+
+.titulo
+	{	margin:0;
+		color:black;
+		font-size: 20px;
+	}
+section
+{	text-align: center;
+	height: 200px;/*altura*/
+	width: 100%; /*ancho*/
+	/*margin:0 0 0 0; arriba derecha abajo izquierda*/
+	margin-top:20px; /*margen superior*/
+	margin-bottom: 10px;/*margen inferior*/
+	margin-left: 10px;/*margen izquierdo*/
+	margin-right: 10px;/*margen derecho*/
+}
+#menu
+{	height: 20px;
+	width: 100%;
+	background: purple;
+}
+
+#cabecera
+{		
+	background: yellow;
+	border-radius: 5px;
+}
+#servicios
+{
+	background: red;
+}
+#conocenos
+{
+	background: green;
+}
+#contactanos
+{
+	background: pink;
+}
+#pie
+{
+	background: lightgray;
+}
