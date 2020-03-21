@@ -1,0 +1,56 @@
+<html><!-- etiqueta principal de HTML -->
+	<head><!--etiqueta de apertura de cabecera -->
+		<title>SoporteTI</title><!--etiqueta para titulo-->
+		<meta charset="utf-8"><!--permite reconcer caracteres especiales-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="estilo/normalize.css">
+	</head><!--etiqueta de cerrar de cabecera -->
+	<body><!--etiqueta del cuerpo del diseño-->
+		<section id="menu">
+		</section>
+		<section id="cabecera">
+			<p class="titulo">cabecera</p>
+		</section>
+		<section id="servicios">
+			<p class="titulo">servicio</p>
+
+			<p>https://google.com/normalize.css;</p>
+			<article class="opcservicio "><p class="tam">soporte</p>
+				<img src="imagenes/prueba.jpg" width="50px" height="80px" type="jpg">
+			</article>
+			<article class="opcservicio"><p class="tam">mantenimiento</p></article>
+			<article class="opcservicio"><p class="tam">redes</p></article>
+			<article class="opcservicio"><p class="tam">asesoria</p></article>
+		</section>
+		<section id="conocenos">
+			<p class="titulo">conocenos</p>
+		</section>
+		<section id="contactanos">
+			<p class="titulo">Encuesta de satisfaccion</p>
+
+			<a href="https://google.com"> Califica nuestro servicio aqui</a>
+
+		</section>
+		<section id="pie">
+			<p class="titulo">CONTACTANOS</p>
+			<ARTICLE class="opcpie">
+				Puedes comunicarte en los siguientes medios<br>
+
+				tel 9614461862<br>
+				email Paolazoraida0@gmail.com<br>
+			</ARTICLE>
+			<ARTICLE class="opcpie">
+				Si deseas una cotizacion no dudes en escribirnos
+				<form name="formcontact" method="post" action="recibo.php">
+					<input type="text" class="inp" required ename="nombre" placeholder="escribe tu nombre">
+					<input type="text" class="inp" required name="asunto" placeholder="asunto"><br>
+					<input type="number" required class="peche" name="tel" placeholder="telefono"><br>
+					<input type="email" required class="peche" name="correo" placeholder="email"><br>
+					<input type="text" required class="peche" name="mensaje" placeholder="escribe tu mensaje">
+					<input type="submit" required class="colbtn" name="enviar" value="enviar ">
+					
+				</form>
+			</ARTICLE>
+		</section>
+	</body>
+</html>
